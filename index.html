@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rotaract Club</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+   
+	<link href="/assets/img/.png" rel="shortcut icon" type="image/png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+		var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+}
+    </script>  
+
+</head>
+<body>
+	<div class ="box" >
+		<div class="logo">
+			<img id="img_logo" href="http://rotaract.nitrkl.ac.in" background="assets/img/background.jpg" src="assets/img/RotaractLogo.png"  />
+			
+		</div><!---logo--->
+		<nav>
+			<ul class ="nav_bar">
+				<li><a href="index.html">Home</a></li>
+				<li><div class="dropdown">
+					<a class="dropbtn">Events</a>
+					<div class="dropdown-content">
+						<a href="UpcomingEvents.html">Upcoming Events</a>
+						<a href="PastEvents.html">Past Events</a>
+					</div>
+				</div></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><div class="dropdown">
+					<a class="dropbtn">Our Team</a>
+					<div class="dropdown-content">
+						<a href="#">Final Years</a>
+						<a href="#">Pre-Final Years</a>
+						<a href="#">Sophomores</a>
+						<a href="#">First Years</a>
+					</div>
+				</div></li>
+				<li><a href=".html">Contact Us</a></li>
+				<li><a href=".html">Gallery</a></li>
+				<li><a href=".html">Our Sponsors</a></li>
+				
+			</ul>
+		</nav>
+		
+		
+
+		<div class="main">
+			<div class ="carousel">
+				<div class="slideshow-container">
+
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+					<div class="numbertext">1 / 4</div>
+					<img src="assets/img/1.jpg">
+					<div class="text">Caption Text</div>
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">2 / 4</div>
+					<img src="assets/img/2.jpg">
+					<div class="text">Caption Two</div>
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">3 / 4</div>
+					<img src="assets/img/3.jpg">
+					<div class="text">Caption Three</div>
+				  </div>
+				  
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  
+			</div>		
+		</div>
+ 
+
+    
+    <div class="wrapper col-md-8">   <h2>Rotaract @NITRKL</h2> <p align="justify">
+                        Rotaract is a service club for students of National Institute of Technology,Rourkela who are dedicated to the community and international service.
+It is one of the oldest clubs in NIT Rourkela which is the youth wing of Rotary International, which is an international service organization whose stated purpose is to bring together business and professional leaders in order to provide humanitarian services, encourage high ethical standards in all vocations, and to advance goodwill and peace around the world. It is a non-political and non-sectarian organization open to all people regardless of race, color, creed, religion, gender, or political preference..
+The members work together for the eradication of various social and management skills by organizing and participating in various social events.
+</p>
+       </div><!--wrapper end-->
+
+
+      <div class="clearfix"></div><!-- clearfix -->
+             
+       <div class="wrapper col-md-6">
+       <h2>Rotaract Club</h2>
+       <p align="justify">
+Rotaract (which stands for Rotary in Action) is a Rotary-sponsored service club for young men and women (ages 18 to 30). Rotaract clubs are either community or university based, and theyâ€™re sponsored by a local Rotary club. This makes them true "partners in service". The first Rotaract club was the Rotaract Club of North Charlotte in North Carolina, founded on March 13, 1968. Since then, Rotaract has grown into one of Rotary's most significant and fastest-growing service programs, with more than 9,723 clubs in about 170 countries and geographical areas comprised of over 207,690 members.Rotaract clubs are part of a global effort to bring peace and international understanding to the world. This effort starts at the community level but knows no limits in its outreach. Rotaractors have access to the many resources of Rotary International (RI) and The Rotary Foundation. Rotary International provides the administrative support that helps Rotaract clubs thrive.Rotaract is divided into districts around the world. These districts follow the Rotary-structured districts. At the district level, the District Rotaract Representative serves as the leader and representative of all clubs in their respective district to Rotary International.
+Each Rotaract club itself is structured differently. The Standard Club Constitution states that there is a president, vice president, secretary, and treasurer, with additional officers provided in the by-laws.
+
+</p>
+	<div class ="KnowMore">
+		<a href="">
+			Know More
+		</a>
+	</div>
+       </div><!--wrapper end-->
+
+</div><!-- main -->
+
+		
+		
+		
+		
+		
+		<div class ="Post-Holders"><div class = "heading">Post Holders</div>
+			<div class "post_holder1">
+				<img id="ph_img" src="assets/img/5.png" />
+				<div class="desc">Jay Prakash <br/>   President</div>
+			</div>
+			<div class "post_holder2">
+				<img id="ph_img" src="assets/img/5.png" />
+				<div class="desc">Shivangi Shrivastav<br/>Vice-President</div>
+			</div>
+			<div class "post_holder3">
+				<img id="ph_img" src="assets/img/5.png" />
+				<div class="desc">Radhika Varshaney<br/>Joint Treasure</div>
+			</div>
+			<div class ="KnowMore">
+		<a href="">
+			Know More
+		</a>
+	</div>
+	<div class ="Sponsers" >
+		<div class = "heading">Our Sponsers</div>
+			
+	</div>
+			
+			<div class="footer" align="center">
+				Copyright &copy Rotaract Club. All Rights Reserved 
+				<a href="https://www.facebook.com/RotaractNITR/" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+			</div> <!-- footer -->
+		</div><!---post holders--->
+	</div><!---block--->
+		 
+	
+	
+	
+	
+	
+
+			
+	
+	
+</body>
+</html>
